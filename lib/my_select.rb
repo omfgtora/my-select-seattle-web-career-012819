@@ -3,7 +3,7 @@ def my_select(collection)
    x = Array.new
     for each in collection
       if yield(each) == true
-        x << yield(each)
+        x << yield
       end
     end
     
