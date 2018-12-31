@@ -8,4 +8,5 @@ def my_select(collection)
     end
     
  end
+ return x
 end
