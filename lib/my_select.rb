@@ -4,5 +4,7 @@ def my_select(collection)
     for each in collection
       if yield(each) == true
         x
+      end
+    end
  end
 end
